@@ -1,0 +1,25 @@
+.one{
+    position: absolute;
+    width: 150px;
+    height: 160px;
+    background-color: orange;
+    margin-top: 150px;
+    margin-left: 200px;
+    animation: progressbar 10s linear infinite;
+  }
+  .two{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 150px;
+    width: 600px;
+    height: 150px;
+    border: solid 10px orange
+  }
+  @keyframes progressbar{
+    0%{
+        margin-left: 160px;
+    }
+    100%{
+        margin-left: 620px;
+    }
+  }
